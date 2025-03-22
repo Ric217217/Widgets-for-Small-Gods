@@ -24,9 +24,9 @@
         function toggleImage() {
             const img = document.getElementById("toggleImg");
             if (toggleState) {
-                img.src = "Action.png"; // First image
+                img.src = "Images/Action.png"; // First image
             } else {
-                img.src = "Used Action.png"; // Second image
+                img.src = "Images/Used Action.png"; // Second image
             }
             toggleState = !toggleState;
         }
