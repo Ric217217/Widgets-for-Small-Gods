@@ -24,9 +24,9 @@
         function toggleImage() {
             const img = document.getElementById("toggleImg");
             if (toggleState) {
-                img.src = "https://your-first-image-url.com"; // First image
+                img.src = "https://github.com/Ric217217/Widgets-for-Small-Gods/blob/main/Action.png"; // First image
             } else {
-                img.src = "https://your-second-image-url.com"; // Second image
+                img.src = "https://github.com/Ric217217/Widgets-for-Small-Gods/blob/main/Used Action.png"; // Second image
             }
             toggleState = !toggleState;
         }
