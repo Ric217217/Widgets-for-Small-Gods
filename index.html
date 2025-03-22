@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Image Button</title>
+    <style>
+        .image-button {
+            width: 100px;
+            height: 100px;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="image-button" onclick="toggleImage()">
+        <img id="toggleImg" src="https://your-first-image-url.com" width="100" height="100" />
+    </button>
+
+    <script>
+        let toggleState = false;
+        function toggleImage() {
+            const img = document.getElementById("toggleImg");
+            if (toggleState) {
+                img.src = "Images/Action.png"; // First image
+            } else {
+                img.src = "Images/Used Action.png"; // Second image
+            }
+            toggleState = !toggleState;
+        }
+    </script>
+</body>
+</html>
