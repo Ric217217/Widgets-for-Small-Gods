@@ -16,7 +16,7 @@
 </head>
 <body>
     <button class="image-button" onclick="toggleImage()">
-        <img id="toggleImg" src="Images/Action.png" width="120" height="120" />
+        <img id="toggleImg" src="images/Action.png" width="120" height="120" />
     </button>
 
     <script>
@@ -31,9 +31,9 @@
         function toggleImage() {
             const img = document.getElementById("toggleImg");
             if (toggleState) {
-                img.src = "Images/Action.png"; // First image
+                img.src = "images/Action.png"; // First image
             } else {
-                img.src = "Images/Used Action.png"; // Second image
+                img.src = "images/Used Action.png"; // Second image
             }
             toggleState = !toggleState;
         }
